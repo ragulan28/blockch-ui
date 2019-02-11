@@ -14,11 +14,25 @@
          input.form-control(id='block#{block.block}chain#{block.chain}nonce', type='text', value='#{block.nonce}', onkeyup='updateChain(#{block.block}, #{block.chain});')
 
     .form-group
-      label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Data')}:
+      label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Owner name')}:
       .col-sm-10
-        textarea.form-control(id='block#{block.block}chain#{block.chain}data', rows='10', onkeyup='updateChain(#{block.block}, #{block.chain});')
+        input.form-control(id='block#{block.block}chain#{block.chain}data', onkeyup='updateChain(#{block.block}, #{block.chain});')
 
-    #state.form-group
+    .form-group
+      label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Owner details')}:
+      .col-sm-10
+        input.form-control(id='block#{block.block}chain#{block.chain}data1',  onkeyup='updateChain(#{block.block}, #{block.chain});')
+
+    .form-group
+      label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Property details')}:
+      .col-sm-10
+        input.form-control(id='block#{block.block}chain#{block.chain}data3',  onkeyup='updateChain(#{block.block}, #{block.chain});')
+    .form-group
+      label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Price')}:
+      .col-sm-10
+        input.form-control(id='block#{block.block}chain#{block.chain}data2', onkeyup='updateChain(#{block.block}, #{block.chain});')
+
+    #state1.form-group
       label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}previous') #{__('Prev')}:
       .col-sm-10
         input.form-control(id='block#{block.block}chain#{block.chain}previous', type='text', value='#{block.previous}', disabled)
@@ -32,5 +46,5 @@
       .col-sm-2
         i.icon-spinner.icon-spin.icon-large
       .col-sm-10
-        button.btn.btn-primary.ladda-button(id='block#{block.block}chain#{block.chain}mineButton', data-style='expand-right')
+        button.btn.btn-danger.btn-lg.btn-block.ladda-button(id='block#{block.block}chain#{block.chain}mineButton', data-style='expand-right')
           span.ladda-label #{__('Mine')}

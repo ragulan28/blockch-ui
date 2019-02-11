@@ -11,9 +11,9 @@ html
     title Blockchain Demo
 
     link(rel='stylesheet', href='/stylesheets/lib/bootstrap.min.css')
-    link(rel='stylesheet', href='/stylesheets/lib/bootstrap-theme.min.css')
+    //link(rel='stylesheet', href='/stylesheets/lib/bootstrap-theme.min.css')
     link(rel='stylesheet', href='/stylesheets/lib/bootstrap-horizon.css')
-    link(rel='stylesheet', href='/stylesheets/lib/ladda-themeless.min.css')
+    //link(rel='stylesheet', href='/stylesheets/lib/ladda-themeless.min.css')
     link(rel='stylesheet', href='/stylesheets/lib/ie10-viewport-bug-workaround.css')
     link(rel='stylesheet', href='/stylesheets/blockchain.css')
 
@@ -26,28 +26,28 @@ html
     script(src='/javascripts/blockchain.js')
 
   body
-    nav.navbar.navbar-inverse.navbar-fixed-top
-      .container
-        .navbar-header
-          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand(href='/') #{__('Blockchain Demo')}
-        #navbar.collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li(class={active: page === 'hash'})
-              a(href='/hash') #{__('Hash')}
-            li(class={active: page === 'block'})
-              a(href='/block') #{__('Block')}
-            li(class={active: page === 'blockchain'})
-              a(href='/blockchain') #{__('Blockchain')}
-            li(class={active: page === 'distributed'})
-              a(href='/distributed') #{__('Distributed')}
-            li(class={active: page === 'tokens'})
-              a(href='/tokens') #{__('Tokens')}
-            li(class={active: page === 'coinbase'})
-              a(href='/coinbase') #{__('Coinbase')}
+    //nav.navbar.navbar-inverse.navbar-fixed-top
+    //  .container
+    //    .navbar-header
+    //      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+    //        span.sr-only Toggle navigation
+    //        span.icon-bar
+    //        span.icon-bar
+    //        span.icon-bar
+    //      a.navbar-brand(href='/') #{__('Blockchain Demo')}
+    //    #navbar.collapse.navbar-collapse
+    //      ul.nav.navbar-nav.navbar-right
+    //        li(class={active: page === 'hash'})
+    //          a(href='/hash') #{__('Hash')}
+    //        li(class={active: page === 'block'})
+    //          a(href='/block') #{__('Block')}
+    //        li(class={active: page === 'blockchain'})
+    //          a(href='/blockchain') #{__('Blockchain')}
+    //        li(class={active: page === 'distributed'})
+    //          a(href='/distributed') #{__('Distributed')}
+    //        li(class={active: page === 'tokens'})
+    //          a(href='/tokens') #{__('Tokens')}
+    //        li(class={active: page === 'coinbase'})
+    //          a(href='/coinbase') #{__('Coinbase')}
 
     block content

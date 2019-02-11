@@ -7,6 +7,7 @@ html {
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   height: 100%;
+  background: rgba(176, 169, 169, 0.97);
 }
 
 body > .container {
@@ -29,8 +30,14 @@ input {
   font-family: monospace;
 }
 
+/*.well-success {*/
+/*background: rgb(20, 103, 52);*/
+/*color: whitesmoke;*/
+/*}*/
 .well-success {
-  background: rgb(223, 240, 216);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.78);
+  color: whitesmoke;
 }
 
 .well-error {

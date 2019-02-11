@@ -5,5 +5,21 @@
 	"Blockchain": "Blockchain",
 	"Distributed": "Distributed",
 	"Tokens": "Tokens",
-	"Coinbase": "Coinbase"
+  "Coinbase": "Coinbase",
+  "Data": "Data",
+  "Nonce": "Nonce",
+  "Mine": "Mine",
+  "Prev": "Prev",
+  "Distributed Blockchain": "Distributed Blockchain",
+  "Peer": "Peer",
+  "Tx": "Tx",
+  "$": "$",
+  "From": "From",
+  "Coinbase Transactions": "Coinbase Transactions",
+  "Owner": "Owner",
+  "price": "price",
+  "Owner name": "Owner name",
+  "Owner details": "Owner details",
+  "Property details": "Property details",
+  "Price": "Price"
 }
